@@ -1,182 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-color: #f0f0f0;
 
-body{
-    background: #fff;
-    color: #262525;
 }
 
-.header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    padding: 30px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid #333;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: #fff;
+  transition: background-color 0.2s ease;
+
 }
 
-.logo{
-    font-size: 25px;
-    font-weight: 700;
-    color: #262525;
-    text-decoration: none;
-    pointer-events: none;   
+.button:hover{
+  background-color: #1976D2;
+
 }
 
-.navbar a {
-    font-size: 25px;
-    color: #262525;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
+.button:active{
+  background-color: #1565C0;
+
 }
 
-.navbar a.active,
-.navbar a:hover {
-    background: linear-gradient(45deg, #0c1022, rgb(52, 5, 239));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.row{
+  margin: 8px 0;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.home {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 70 10% 0;
+.row input{
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+
 }
 
-.home-content{
-    max-width: 700px;
-    margin-left: 3rem;
-}
-.home-content h1 {
-    font-size: 56px;
-    font-weight: 700;
-}
-.home-content h1 span{
-    color: #041081;
+.row input:focus{
+  border-color: #2196F3;
+  box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+
 }
 
-.home-content h3 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #1955a2;
-}
-
-.home-content p {
-    font-size: 16 px;
-    margin: 20px 0 40px;
-}
-
-.btn, .view-project-btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 180px;
-    height: 48px;
-    background: linear-gradient(45deg,#0c1022,rgb(12, 27, 243));
-    border-radius: 40px;
-    font-size: 19px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-right: 20px;
-    z-index: 1;
-}
-
-.social-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.3rem;
-    font-size: 1.7rem;
-    margin-left: 2rem;
-}
-
-.social-links a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer; 
-}
-  
-  .social-links a:hover {
-    opacity: 0.8;
-}
-
-.social-links .fa-facebook {
-    color: #1877F2;
-    cursor: pointer;
-}
-  
-  .social-links .fa-x-twitter {
-    color: #262525;
-    cursor: pointer;
-}
-  
-  .social-links .fa-instagram {
-    color: #E1306C;
-    cursor: pointer;
-}
-  
-  .social-links .fa-linkedin {
-    color: #0077B5;
-    cursor: pointer;
-}
-
-.home-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
-  }
-  
-  .glowing-circle {
-    width: 370px; 
-    height: 370px;
-    border-radius: 50%;
-    position: relative;
-  }
-  .glowing-circle span{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#f06,#3cf);
-    border-radius: 50%;
-  }
-.glowing-circle span:nth-child(1) {
-    filter: blur(10px);
-}
-  .image{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px; 
-    height: 350px;
-    border-radius: 50%;
-    background-color: #262525;
-    background-image: url('4_magicstudio_3h7y92r20wn.png');
+body {
+    margin: 0; 
+    background-image: url('T32.jpg');
     background-size: cover;
     background-position: center;
-  }
-  .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    border-radius: 50%; 
-  }
+    height: 100vh; 
+}
 
+.text-center {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }

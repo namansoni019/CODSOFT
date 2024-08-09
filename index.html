@@ -1,60 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Basic Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio.</a>
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="project.html">Project</a>
-            <a href="skill.html">Skills</a>
-            <a href="contact.html">ContactUs</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="social-links">
-            <a href="https://www.facebook.com/soni.namanp" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="
-            
-            " target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-        </div>
-        <div class="home-content">
-            <h1>Hi, I'm <span>NAMAN SONI</span></h1>
-            <h3>Web Developer</h3>
-            <p>To add space between the two buttons, 
-                you can add a margin to one of the buttons.
-               This will add a 20px margin to the right of the first button, 
-               creating space between the two buttons.</p>
-            <a href="contact.html" class="btn">Hire Me</a>
-            <a href="project.html" class="btn">View Project</a>
-        </div>
-        <div class="home-img">
-            <div class="glowing-circle">
-                <span></span>
-                <span></span>
-            <div class="image">
-                <img src="4_magicstudio_3h7y92r20wn.png" alt="">
-            </div>
-        </div>
-        </div>
-    </section>
+  <h1 class="text-center">CALCULATOR</h1>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    <div class="row">
+      <input class="input" type="text"/>
+    </div>
+    <div class="row">
+      <button class="button">C</button>
+      <button class="button">M+</button>
+      <button class="button">M-</button>
+      <button class="button">00</button>
+    </div>
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button">*</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button">/</button>
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button">+</button>
+    </div>
+    <div class="row">
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button">=</button>
+      <button class="button">-</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
