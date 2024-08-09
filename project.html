@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html" class="active">Project</a></li>
+                <li><a href="skill.html">Skills</a></li>
+                <li><a href="contact.html">ContactUs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="top-background"></div>
+    <main>
+        <section class="project-section">
+            <h1 class="project-heading">My Projects</h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="15.png" alt="Project 1">
+                    <h2>MY PORTFOLIO</h2>
+                    <p></p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="16.png" alt="Project 2">
+                    <h2>LANDING PAGE</h2>
+                    <p></p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="17.png" alt="Project 3">
+                    <h2>CALCULATOR</h2>
+                    <p></p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NAMAN SONI. All rights reserved.</p>
+        </div>
+    </footer>
+    <style>
+body {
+  background-image: linear-gradient(90deg, #fff, #c7b8ea);
+  background-size: 100% 100vh; 
+  background-position: 0 420px;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.top-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 420px;
+  background-image: url(13.jpg);
+  background-size: 1540px 420px;
+  background-repeat: no-repeat;
+  z-index: 101;
+}
+.header{
+    width: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 102;
+    padding: 30px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    pointer-events: none;   
+}
+
+.navbar {
+    margin-left: 20px; 
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    font-size: 28px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: linear-gradient(45deg, #0c1022, rgb(52, 5, 239));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.project-section {
+  padding: 100px 0;
+  background-image: linear-gradient(90deg, #fff, #c7b8ea);
+  margin-top: 420px;
+}
+.project-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #8d2097;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-card {
+    margin: 30px;
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+}
+.project-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.project-card p {
+    font-size: 18px;
+    color: #ecb0f8;
+    margin-bottom: 20px;
+}
+.project-link {
+    text-decoration: none;
+    color: #8d2097;
+    font-size: 18px;
+    font-weight: 700;
+}
+.project-link:hover {
+    color: #8425a6;
+}
+footer {
+  color: #333;
+  padding: 1em 0;
+  text-align: center;
+}
+    </style>
+</body>
+</html>

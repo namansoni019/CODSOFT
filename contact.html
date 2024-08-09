@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type=" text" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" required>
+                <label for="message">Your Message:</label>
+                <textarea name="message" rows="6" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Location</h2>
+            <p>NBH HOSTEL,ACE,MAIN CAMPUS,KUKAS,JAIPUR(RAJ.), 302028 </p>
+            <h2>Contact Details</h2>
+            <p>Email: soninamanp7@gmail.com <br>Phone: +919664464843 </br></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/soni.namanp" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/soninamanp_official_13?igsh=MXJoZWEzaXFoMGg1Zw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background: linear-gradient(90deg,#fff,#c7b8ea);
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container{
+            max-width: 85%;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-form, .contact-info{
+            flex: 1;
+            min-width: 300px;
+            margin: 20px;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        .contact-form h2, .contact-info h2{
+            color: #8d2097;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .contact-form form{
+            display: grid;
+            grid-gap: 15px;
+        }
+        .contact-form form label{
+            color: #8d2097;
+            font-size: 17px;
+        }
+        .contact-form form input,
+        .contact-form form textarea,
+        .contact-form button{
+            font-size: 17px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #c7b8ea;
+            color: #000;
+            transition: 0.3s ease;
+        }
+        .contact-form button:hover{
+            background-color: #8d2097;
+        }
+        .contact-info p{
+            font-size: 17px;
+            color: #000;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer; 
+}
+  
+  .social-links a:hover {
+    opacity: 0.8;
+}
+
+.social-links .fa-facebook {
+    color: #1877F2;
+    cursor: pointer;
+}
+  .social-links .fa-instagram {
+    color: #E1306C;
+    cursor: pointer;
+}
+  .social-links .fa-linkedin {
+    color: #0077B5;
+    cursor: pointer;
+}
+    </style>
+</body>
+</html>

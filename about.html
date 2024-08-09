@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="project.html">Project</a>
+                <a href="skill.html">Skills</a>
+                <a href="contact.html">ContactUs</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about">
+                <div class="about-content">
+                    <h1>About me</h1>
+                    <p>Welcome to my personal portfolio! I'm a web developer passionate about creating innovative digital solutions. Now in my second year of web development studies, I've gained valuable hands-on experience and developed strong skills in both front-end and back-end development. One of my proudest achievements is being a finalist in my college hackathon and in Rajasthan police hackathon 1.O which is my first hackathon, where I showcased my problem-solving skills and creativity. My portfolio features a variety of web projects that highlight my expertise in HTML, CSS, JavaScript. Each project reflects my attention to detail, adaptability, and commitment to excellence. I love collaborating with others and am always excited to connect with like-minded professionals to explore new opportunities and push the boundaries of what's possible. Thanks for visiting my portfolio, and I look forward to the chance to work together and create something amazing.</p>
+                </div>
+                <div class="about-image">
+                    <img src="9.jpg" alt="NAMAN SONI ">
+                    <div class="about-info">
+                        <h3>NAMAN SONI</h3>
+                        <p>Web Developer</p>
+                        <a href="mailto:soninamanp7@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>soninamanp7@gmail.com</a>
+                        <p><i class="fa fa-mobile" aria-hidden="true"></i> +91 9664464843</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <h1>Skills</h1>
+                <div class="container skills-container">
+                    <div class="skill-card">
+                        <img src="html1-removebg-preview.png" alt="HTML Logo">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%;"></div>
+                            <span>85%</span>
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="css-removebg-preview.png" alt="CSS Logo">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                            <span>80%</span>
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="php-removebg-preview.png" alt="PHP Logo">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                            <span>65%</span>
+                        </div>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="python-removebg-preview.png" alt="PYTHON Logo">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%;"></div>
+                            <span>50%</span>
+                        </div>
+                        <h3>PYTHON</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="c-removebg-preview.png" alt="C Logo">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                            <span>85%</span>
+                        </div>
+                        <h3>C</h3>
+                    </div>
+                        <div class="skill-card">
+                            <img src="js-removebg-preview.png" alt="JS Logo">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                                <span>80%</span>
+                            </div>
+                            <h3>JS</h3>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NAMAN SONI. All rights reserved.</p>
+        </div>
+    </footer>
+    <style>
+ body {
+  background: linear-gradient(90deg,#fff,#c7b8ea);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 30px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #262525;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+h1, h2 {
+    color: #663399;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 480px;
+}
+
+.navbar a {
+  font-size: 28px;
+  color: #262525;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  background: linear-gradient(45deg, #0c1022, rgb(52, 5, 239));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+main {
+  padding: 2em 0;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-content {
+  flex: 1;
+  padding: 0 2em;
+  font-size: 36px;
+}
+
+.about-content p {
+  font-size: 15px;
+  text-align: justify;
+  font-weight: 700;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.about-info {
+  margin-top: 1em;
+}
+
+.about-info h3 {
+  margin-bottom: 0.5em;
+}
+
+.about-info a i {
+  color: #262525;
+  margin-right: 10px;
+}
+
+.about-info i {
+  color: #262525;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(122, 92, 168, 0.173);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+  flex: 0 0 250px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  box-shadow: 0 8px 16px rgba(122, 92, 168, 0.173);
+  transform: translateY(-5px);
+}
+
+.skill-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.skill-card h3 {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.skill-card p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.progress {
+  display: none;
+}
+
+.progress-bar span {
+  font-weight: bold;
+  font-size: 12px;
+  color: #666;
+  margin: auto;
+}
+
+footer {
+  color: #333;
+  padding: 1em 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about {
+    display: block;
+  }
+
+  .about-content {
+    padding: 0;
+  }
+
+  .about-image {
+    margin-top: 1rem;
+  }
+}
+
+</style>
+</body>
+</html>
